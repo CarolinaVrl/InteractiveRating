@@ -74,6 +74,11 @@ p{
     border-radius: 50%;
     font-size: 14px;
 }
+.rating div:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 5px var(--White);
+
+}
 button{
     text-align: center;
     width: 100%;
@@ -86,4 +91,8 @@ button{
     padding: 12px;
     border-radius: 25px;
     font-family: 'Overpass', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 5px var(--White);
 }
