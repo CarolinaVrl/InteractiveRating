@@ -12,3 +12,25 @@
  --DarkBlue: hsl(213, 19%, 18%);
  --VeryDarkBlue: hsl(216, 12%, 8%)
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--VeryDarkBlue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    height: 100vh;
+}
+main{
+    background: var(--DarkBlue);
+    width: 90%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
