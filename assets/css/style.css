@@ -21,6 +21,7 @@
 body{
     background: var(--VeryDarkBlue);
     display: flex;
+    
     align-items: center;
     justify-content: center;
     font-family: 'Overpass', sans-serif;
@@ -33,4 +34,43 @@ main{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    border-radius: 18px;
+}
+.star-icon{
+    background: var(--MediumGrey);
+    height: 30px;
+    width: 30px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+}
+.star-icon img{
+    width: 13px;
+    
+}
+h2{
+    color: var(--White);
+    font-size: 24px;
+}
+
+p{
+    color: var(--LightGrey);
+    font-size: 14px;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.rating div{
+    width: 35px;
+    height: 35px;
+    background: gray;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    color: var(--LightGrey);
+    border-radius: 50%;
+    font-size: 14px;
 }
