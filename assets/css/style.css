@@ -74,3 +74,16 @@ p{
     border-radius: 50%;
     font-size: 14px;
 }
+button{
+    text-align: center;
+    width: 100%;
+    background: var(--Orange);
+    border: none;
+    color: var(--White);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px;
+    border-radius: 25px;
+    font-family: 'Overpass', sans-serif;
+}
